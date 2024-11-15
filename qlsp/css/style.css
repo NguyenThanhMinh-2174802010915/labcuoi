@@ -1,0 +1,110 @@
+.first{
+    position: absolute;
+    display: block;
+    top: 10%;
+}
+.container{
+    display: flex;
+    height: 490px;
+}
+.primary{
+    background-color: #4285F4;
+    color: #fff;
+    border: black;
+    border-radius: 5px;
+    padding: 8px 13px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.danger{
+    background-color: #E32934;
+    color: #fff;
+    border: black;
+    border-radius: 5px;
+    padding: 8px 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.danger:hover{
+    background-color: #c10310;
+}
+.submit{
+    position: absolute;
+    left: 2%;
+    background-color: #4285F4;
+    color: #fff;
+    padding: 16px 8px;
+    height: 20px;
+    border-radius: 8px;
+}
+.submit:hover, .primary:hover{
+    background-color: #1967e5;
+}
+.item{
+    border: 1px solid #ccc;
+    width: 24%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.new-price{
+    font-size: larger;
+    color: red;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.title{
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+.old-price{
+    margin-right: 15px;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.discount{
+    color: red;
+}
+.img-item{
+    width: 250px;
+    height: 250px;
+}
+input[type=text], input[type=number], input[type=file]{
+    border: 1px solid #E0E0E0;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+input[type=submit]{
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #1967e5;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+input[type=submit]:hover{
+    background-color: #4285F4;
+}
+.cancel{
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #1967e5;
+    cursor: pointer;
+    border: 1px solid #1967e5;
+    border-radius: 8px;
+}
+.cancel:hover{
+    background-color: #1967e5;
+    color: white;
+} 
